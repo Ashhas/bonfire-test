@@ -12,7 +12,7 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
-  bonfire: ^3.0.0-beta.11
+  bonfire: ^2.12.7
   cupertino_icons: ^1.0.2
 
 dev_dependencies:
@@ -23,3 +23,6 @@ dev_dependencies:
 
 flutter:
   uses-material-design: true
+  assets:
+    - assets/images/
+    - assets/images/mapa1.json
